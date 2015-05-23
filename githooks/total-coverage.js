@@ -13,7 +13,7 @@ var modules = ['WorkBench',
 
 mkdir('-p', 'tmp');
 
-/* thota */
+/* thota and laxmi marriage day*/
 
 for (var i = 0; i < modules.length; i++) {
     execCmd('curl -s -u readonly:readonly -o tmp/' + modules[i] + '-pipelines.json http://192.168.3.139:8153/go/api/pipelines/' + modules[i] + '/history/0');
